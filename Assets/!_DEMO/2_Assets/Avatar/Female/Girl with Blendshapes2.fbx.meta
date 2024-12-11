@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3cda1001cc30c4598b86cce07ad97be7
+guid: 57a7757595f9e469cbc7409ac2e33b8b
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -8,47 +8,42 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wolf3D_Body
-    second: {fileID: 2100000, guid: 2eadcef95019c45cb8ff4c9e4ea4a104, type: 2}
+    second: {fileID: 2100000, guid: 0afcfa04d11ae4d04924564629780bbf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wolf3D_Eye
-    second: {fileID: 2100000, guid: b4b2432c10cd34c21b5c7f672885fd1e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wolf3D_Glasses
-    second: {fileID: 2100000, guid: a1df96ccfb87848a1ae990992732f8df, type: 2}
+    second: {fileID: 2100000, guid: e89022de891c040b490afbdf41a93d9a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wolf3D_Hair
-    second: {fileID: 2100000, guid: f6cdf263b4e024c4d9518b3feb6d6880, type: 2}
+    second: {fileID: 2100000, guid: b06ed9c11f08c4e43a298d4017d74238, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wolf3D_Outfit_Bottom
-    second: {fileID: 2100000, guid: f7a629b491a3743309d42e6922e0c2f4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wolf3D_Outfit_Footwear
-    second: {fileID: 2100000, guid: db810558b8bd44739ab19b225ed2386d, type: 2}
+    second: {fileID: 2100000, guid: 5fd1d18da3c12499791d20528f010029, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wolf3D_Outfit_Top
-    second: {fileID: 2100000, guid: c863bdb9db33241ac985a02466588b72, type: 2}
+    second: {fileID: 2100000, guid: 3e436908c6d1f48c093d7dee4cbfe209, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wolf3D_Skin
-    second: {fileID: 2100000, guid: 5b9f0eb75e1cc4bc7a8ae253bea94c1d, type: 2}
+    second: {fileID: 2100000, guid: 0154fc910549b4230b24156d8164d8a8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Wolf3D_Teeth
-    second: {fileID: 2100000, guid: 340a7e66168a44d66962bfd0c5d965ad, type: 2}
+    second: {fileID: 2100000, guid: f571e97401f724ca7a79d69e277ae5c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aleksandr@readyplayer
+    second: {fileID: 2100000, guid: 6e375fd5030db41679135c43d2e8ccd6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -76,36 +71,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: mixamo.com
-      takeName: mixamo.com
-      internalID: -203655887218126122
-      firstFrame: 0
-      lastFrame: 228
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -115,7 +81,7 @@ ModelImporter:
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
-    importBlendShapes: 0
+    importBlendShapes: 1
     importCameras: 0
     importLights: 0
     nodeNameCollisionStrategy: 1
@@ -169,7 +135,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
